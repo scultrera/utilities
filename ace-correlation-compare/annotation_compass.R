@@ -1,4 +1,4 @@
-#-- Got his for StackOverflow - thanks baptiste!
+#-- Got his from StackOverflow - thanks baptiste!
 #-- https://stackoverflow.com/questions/47916307/specify-position-of-geom-text-by-keywords-like-top-bottom-left-right
 
 annotation_compass <- function(label,
