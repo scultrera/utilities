@@ -1,1 +1,1 @@
-![alt text](ace-correlation-compare/Pearson Cor vs ACE.pdf)
+![alt text](ace-correlation-compare/ace_correlation_example.png)
