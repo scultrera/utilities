@@ -22,8 +22,10 @@ from sklearn import preprocessing
 
 
 
-#-- Simple pca function which returns two dataframes:
-#-- features_weights, eigenvalues
+# -- Simple pca function which returns:
+# -- pca object
+# -- dataframe of features_weights
+# -- dataframe of eigenvalues/component metrics
 def get_pca(p_df, p_n_components=None, p_scale=True, p_column_list = [] ):
     
 
@@ -66,4 +68,4 @@ def get_pca(p_df, p_n_components=None, p_scale=True, p_column_list = [] ):
     
     df_variance['cumulative'] = df_variance['proportion'].cumsum()
     
-    return df_feature_weights, df_variance
+    return pca, df_feature_weights, df_variance
