@@ -1,11 +1,11 @@
 
 """
 Some utilities for PCA to use it more like a clustering technique. 
-I learned this in Grad school at Central Connecticut State University (CCSU), thus the name.
+I learned this in Grad school at Central Connecticut State University (CCSU), thus the name. 
 
 I want to be able to:
 - create PCA solutions for groups of features
-- For each PCA solution, I want to dataframes
+- For each PCA solution, I want these dataframes:
     -- Feature weights x component
     -- component x eigenvalues, variance, cum variance
 
